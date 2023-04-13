@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style: none;/* 不需要后面的小圆点 */
+}
+ul
+{
+    list-style: none;
+}
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.tupian
+{
+    width: 100%;/* 宽度 */
+    height: 100%;/* 高度 */
+    object-fit: cover;/* 图片自适应 */
+}/* 图片自动缩放 */
+.tupian1
+{
+    overflow: hidden;
+}
+.diyihangbeijing
+{
+    position: fixed;/* 该盒子跟随页面滚动且相对屏幕位置不变 */
+    z-index: 100;/* 元素重叠时显示的覆盖先后 */
+    top: 0;/* 相对于屏幕最上方距离为0 */
+    height: 62px;
+    width: 100%;
+
+    background-color: rgb(0, 153, 253);
+    
+}
+
+.diyihang
+{
+    float: auto;/* 居中浮动 可防止页面太小掉下来 */
+    margin-top: 10px;
+    z-index: 100;
+    height: 42px;
+    width:calc(100% - 62px);
+    margin-left: 20%;
+    background-color: rgb(0, 153, 253);
+    min-width: 1046px;
+}
+
+
+.huizhuye
+{
+    float: left;
+    width: 198px;
+    height: 42px;
+    background-color: rgb(255, 255, 255);
+}
+
+.daohan
+{
+    float: left;
+    margin-left: 40px;
+}
+.daohan1
+{
+    display: block;/* 设为一个块盒子 */
+    float: left;
+    height: 42px;
+    padding: 0 10px;/* 内边距上下0 左右10px */
+    margin-left: 35px;/* 外边距左 */
+    line-height: 42px;/* 盒内元素高度 */
+    font-size: 18px;/* 字体大小 */
+    color: rgb(0, 0, 0);/* 字体颜色 */
+    text-decoration:none ;/* 文本下划线none */
+}
+.daohan1:hover
+{
+    border-bottom: 3px solid blue;/* 下边框大小 类型 颜色 */
+    color: palevioletred; 
+}/* 鼠标移到上面时的变化 */
+
+.sousuo
+{
+    float: left;
+    width: 412px;
+    height:42px;
+    border:black;/* 边框颜色 */
+    margin-left: 50px;
+}
+.sousuo input
+{
+    float: left;
+    width:360px ;
+    height: 38px;
+    border: solid 2px ;
+
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
+.sousuo button
+{
+    cursor: pointer;
+    float: left;
+    width: 48px;
+    height: 42px;
+    border: rgb(0, 0, 0);
+}
+.zhujiemianbeijing
+{
+    margin-top: 62px;
+    height: 500px;
+    background: linear-gradient(to bottom right, rgb(199, 98, 224), rgb(153, 229, 200));
+}
+.zhujiemian
+{
+    margin-left: 25%;
+    margin: 0 auto;
+    height: 500px;
+    width: 50%;
+    background-color:none;
+}
+
+.ziti
+{
+    font-size: 300px;
+    size: 200px;
+    color: rgb(255, 0, 0);
+}
+
+
+.dropbtn {
+    display: flex;
+    padding: 0;
+    border: none;
+    cursor: pointer;/* 鼠标移动到目标块时改变 */
+    height: 42px;
+    margin-top: 10px;
+    width: 80px;
+    background-color: #ff0000;
+}
+
+.caidan
+{
+    cursor: pointer;/* 鼠标移动到目标块时改变 */
+    height: 100%;
+    margin: auto;
+    float: left;
+    position: relative;
+    background-color: #ff0000;
+}
+.caidan1
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.caidan1 a
+{
+    display: none;
+}
+.caidan:hover .caidan1 a
+{
+    display: block;
+    height: 50px;
+    width: 100px;
+    background-color: #2103c7;
+    text-decoration: none;
+}
+.caidan:hover .caidan1 a:hover
+{
+    background-color: #ff0000;
+    text-decoration:underline black;
+    box-shadow: 0px 8px 16px 0px rgba(255, 0, 0, 0.2);/* 元素阴影偏移量 */
+}
+
+.beijing
+{
+    margin-top: 0;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(148, 138, 138);
+}
+.beijinghezi
+{
+    margin-left: 12.5%;
+    height: 400px;
+    width: 75%;
+}
+.kuanhezi
+{
+    float: left;
+    height: 400px;
+    width: 75%;
+    background-color: white;
+}
+.zhenghezi
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.beijinghezi1
+{
+    margin-left: 12.5%;
+    height: 800px;
+    width: 75%;
+    background-color: black;
+}
+.zhaihezi
+{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: brown
+}
+.kuanhezi1
+{
+    float: left;
+    display: grid;
+    width: 75%;
+    height: 100%;
+    background-color: #2103c7;
+}
+.kuanhezi2
+{
+    border:solid 1px rgb(199, 98, 224) ;
+    height:calc(100% - 2px );
+    width:100%;
+    background-color: white;    
+}
+
+.tiaozhaung
+{
+    width: 100%;
+    height: 40px;
+    background-color: #5a6bca;
+}
+.yingyong
+{
+    width: 100%;
+    height: 80px;
+    background-color: chartreuse;
+}
+/* 通用样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 整个轮播图的容器 */
+  .test11 {
+    position: relative; /* 设置相对定位 */
+  }
+  
+  /* 轮播图容器 */
+  .slideshow-container {
+    position: relative; /* 设置相对定位 */
+    overflow: hidden; /* 隐藏超出容器部分的内容 */
+    width: 100%; /* 设置容器宽度为 500px */
+    margin: 0 auto; /* 设置容器水平居中 */
+/*     height: 500px; *//* 新加的 */
+  }
+  
+  /* 轮播图元素容器 */
+  .slideshow {
+    height: 500px;
+    display: flex; /* 将子元素水平排列 */
+    width: calc(100% * 4); /* 将所有子元素的宽度加在一起 */
+    transition: transform 0.3s ease-in-out; /* 设置变换的过渡效果 */
+  }
+  
+  /* 轮播图元素 */
+  .slideshow img {
+    width:calc(100% / 4); /* 设置图片宽度为 500px */
+    height: 100%; /* 高度自适应 */
+    object-fit: contain;/* 图片自适应 */
+  }
+  
+  /* 轮播图切换按钮 */
+  .prev,
+  .next {
+    position: absolute; /* 设置绝对定位 */
+    top: 50%; /* 设置垂直居中 */
+    transform: translateY(-50%); /* 将按钮向上平移自身高度的一半，以便实现垂直居中 */
+    font-size: 2em; /* 设置字体大小为 2em */
+    cursor: pointer; /* 鼠标悬停时变成手指形状 */
+  }
+  
+  /* 上一张按钮 */
+  .prev {
+    left: 0px; /* 距离容器左侧 0px */
+  }
+  
+  /* 下一张按钮 */
+  .next {
+    right: 0px; /* 距离容器右侧 0px */
+  }
+  
+  /* 圆点容器 */
+  .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;/* 设置左右居中 */
+    transform: translateX(-50%);/* 将按钮向左平移自身高度的一半，以便实现左右居中 */
+    width: 100%;/* 宽度设置为父类的100% */
+    display: flex; /* 将子元素水平排列 */
+    justify-content: center; /* 水平居中 */
+    margin-top: 0px; /* 距离上方元素的距离为 20px */
+  }
+  
+  /* 圆点 */
+  .dot {
+    width: 10px; /* 圆点宽度为 10px */
+    height: 10px; /* 圆点高度为 10px */
+    margin: 0 10px; /* 圆点之间左右间隔为 10px */
+    border-radius: 50%; /* 圆点变成圆形 */
+    background-color: gray; /* 设置圆点颜色为灰色 */
+    cursor: pointer; /* 鼠标悬停时变成手指形状 */
+  }
+  
+  /* 当前圆点 */
+  .dot.active {
+    background-color: black; /* 设置当前圆点颜色为黑色 */
+  }
+.te2
+{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+.Sign
+{
+    float: left;
+    margin-right: 0px;
+    width: 42px;
+    height: 100%;
+}
+.Sign a
+{
+    padding-top: 10px;
+    display: block;
+    float: left;
+    margin-right: 0px;
+    width: 42px;
+    height: 100%;
+}
+
