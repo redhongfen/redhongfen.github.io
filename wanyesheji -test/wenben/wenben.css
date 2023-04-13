@@ -1,0 +1,17 @@
+.gensui_zuo
+{
+    top: 50%; /* 设置垂直居中 */
+    transform: translateY(-50%); /* 将按钮向上平移自身高度的一半，以便实现垂直居中 */
+    height: 60%;
+    width: 20%;
+    background-color: brown;
+    position: fixed;/* 该盒子跟随页面滚动且相对屏幕位置不变 */
+}
+.wenbenhe_zhu
+{
+    margin-top: 62px;
+    margin-left: 35%;
+    height: 2000px;
+    width: 50%;
+    background-color: rgb(148, 76, 76);
+}
